@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.container {
+    position: absolute;
+    max-width: 1115px;
+    height: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    margin-top: -230px;
+    background-color: #e2dcdcb0;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.gif-container {
+    position: bottom;
+    width: 200px; /* Set width of the container */
+    height: 200px; /* Set height of the container */
+}
+
+.gif-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%; /* Set width of the iframe to fill the container */
+    height: 100%; /* Set height of the iframe to fill the container */
+}
+    
+
+
+h1 {
+    text-align: center;
+    color: #c50818c9;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,38 @@
+body {
+    text-align: left;
+    font-family: cursive;
+    font-size: larger;
+    display: flex;
+    height: 70vh; /* Ensure full viewport height */
+    background-image: url('C:/Users/Administrator/Downloads/c0034ab2b7b6a91024e0658743059ec4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0; /* Remove default margin */
+    padding: 0;
+}
+.hover-text {
+    position: relative;
+    color: black;
+}
+
+.hover-text:hover::before,
+.hover-text:hover::after {
+    content: 'mwa mwa ';
+    position: absolute;
+    top: -10px;
+    opacity: 0;
+    color: white;
+    animation: heartPop 0.9s ease forwards;
+}
+
+@keyframes heartPop {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
